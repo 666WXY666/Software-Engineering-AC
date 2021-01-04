@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ServerWidget</class>
+ <widget class="QWidget" name="ServerWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>300</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>300</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>主界面</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPushButton" name="StartServerButton">
+     <property name="text">
+      <string>启动服务端</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="CloseServerButton">
+     <property name="text">
+      <string>关闭服务端</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="toSetButton">
+     <property name="text">
+      <string>设置空调参数</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="toMonitorButton">
+     <property name="text">
+      <string>监视空调</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="toReceptionButton">
+     <property name="text">
+      <string>前台业务</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="toManagerButton">
+     <property name="text">
+      <string>经理业务</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
